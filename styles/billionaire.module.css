@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 100%;   
+    min-width: 500px;
+    row-gap: 40px;
+    max-width: 700px;
+    margin: 50px auto;
+    color: #948979;
+}
+
+.billionaire {
+    background-color: #3C5B6F;
+    display: grid;
+    text-align: center;
+    row-gap: 6px;
+}
+
+.billionaire img {
+    width:50%;
+    margin:20px auto;
+    border-radius: 20px;
+}
+
+.billionaire h1 {
+    font-weight: 800;
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: #DFD0B8;
+}
+.billionaire p {
+    margin: 20px 30px;
+    text-align: left;
+}
+
+
+.assetList {
+    background-color: #3C5B6F;
+    min-height: 250px;
+    padding: 30px;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(4, auto);
+    font-size: 80%;
+}
+.assetList div {
+    border:1px solid #153448;
+    padding: 10px;
+    display: grid;
+    max-height: 110px;
+}

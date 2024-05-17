@@ -17,6 +17,7 @@ export default async function Home() {
         <div className={styles.container}>
             {billionaires.map((billionaire)=>(
                 <Billionaires
+                    key={billionaire.id}
                     id={billionaire.id} 
                     name={billionaire.name}
                     squareImage={billionaire.squareImage}
