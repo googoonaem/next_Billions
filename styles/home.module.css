@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    gap:15px;
+    row-gap: 60px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 210px);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}

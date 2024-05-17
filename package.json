@@ -1,0 +1,24 @@
+{
+  "name": "next_billions",
+  "version": "1.0.0",
+  "description": "next_billions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googoonaem/next_Billions.git"
+  },
+  "author": "googoonaem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/googoonaem/next_Billions/issues"
+  },
+  "homepage": "https://github.com/googoonaem/next_Billions#readme",
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
